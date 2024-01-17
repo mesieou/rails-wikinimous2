@@ -1,0 +1,6 @@
+<h1 class="border-bottom py-3"> <%= @article.title %></h1>
+
+<% content_array = @article.content.split(",") %>
+<% content_array.each do |pharagraph| %>
+  <p class="py-2"> <%= pharagraph %> </p>
+<% end %>

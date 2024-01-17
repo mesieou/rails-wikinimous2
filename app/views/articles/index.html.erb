@@ -1,0 +1,4 @@
+<% @articles.each do |article| %>
+  <%= link_to article.title, article_path(article), class: "article-title mb-0 text-decoration-none"%>
+  <p class="article-text"><%= truncate(article.content, length: 100) %></p>
+<% end %>
