@@ -16,9 +16,18 @@
   font-size: 18px;
   text-decoration: none;
   color: gray;
-}
+}s
 
 .bar-link:hover {
   color: #616161;
   transition: 0.3s;
 }
+
+#content-label {
+  font-weight: bold;
+}
+
+#content-text-field {
+   border: none;
+   width: -webkit-fill-available;
+  }
