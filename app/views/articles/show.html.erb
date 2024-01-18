@@ -5,7 +5,6 @@
       article_path(@article),
       data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
 </div>
-
 <% content_array = @article.content.split(",") %>
 <% content_array.each do |pharagraph| %>
   <p class="py-2"> <%= pharagraph %> </p>
