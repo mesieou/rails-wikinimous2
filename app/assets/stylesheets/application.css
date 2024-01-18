@@ -10,3 +10,15 @@
 .article-text {
   color:#616161
 }
+
+.bar-link {
+  margin-bottom: 0;
+  font-size: 18px;
+  text-decoration: none;
+  color: gray;
+}
+
+.bar-link:hover {
+  color: #616161;
+  transition: 0.3s;
+}
