@@ -1,4 +1,7 @@
-<h1 class="border-bottom py-3"> <%= @article.title %></h1>
+<div class="d-flex align-items-center">
+  <h1 class="border-bottom py-3"> <%= @article.title %></h1>
+  <%= link_to "✍🏽", edit_article_path(@article), class:"m-3"  %>
+</div>
 
 <% content_array = @article.content.split(",") %>
 <% content_array.each do |pharagraph| %>
